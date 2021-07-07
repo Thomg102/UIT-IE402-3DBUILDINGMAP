@@ -1,0 +1,13 @@
+package com.buildingmap3d.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class FeatureController {
+
+	@RequestMapping("/feature")
+	public String showPage() {
+		return "feature";
+	}
+}
