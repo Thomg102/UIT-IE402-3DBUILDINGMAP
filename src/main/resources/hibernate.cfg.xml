@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+        <property name="hibernate.connection.password">pastwent12345</property>
+        <property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;databaseName=spatial_data</property>
+        <property name="hibernate.connection.username">sa</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
+        
+        <mapping class="com.buildingmap3d.entities.Node"/>
+        <mapping class="com.buildingmap3d.entities.Face"/>
+        <mapping class="com.buildingmap3d.entities.Body"/>
+        <mapping class="com.buildingmap3d.entities.Field"/>
+        <mapping class="com.buildingmap3d.entities.FaceNode"/>
+        <mapping class="com.buildingmap3d.entities.BodyFace"/>
+    </session-factory>
+</hibernate-configuration>
