@@ -1,0 +1,187 @@
+/* navbar */
+
+#content h3,
+h2 {
+    color: rgb(0, 20, 110);
+}
+
+.navbar a {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px
+}
+
+.active a {
+    border-radius: 5px;
+    border-bottom: 1px solid white;
+}
+
+.bg-dark {
+    background-color: rgba(0, 20, 110, 0.7) !important;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    transition: top 0.3s;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    /* color: white; */
+    text-align: center;
+    /* padding: 15px; */
+    text-decoration: none;
+}
+
+#navbar a.a-link:hover {
+    /* background-color: #ddd; */
+    color: white;
+    border-bottom: 1px solid white;
+    border-radius: 5px;
+}
+
+
+/* banner */
+
+.banner {
+    height: 100vh;
+    background-image: url("Saigon\ -\ 15952.mp4");
+}
+
+#myBtn {
+    width: 50px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+    opacity: 0.5;
+}
+
+#myVideo {
+    position: relative;
+    z-index: -1;
+    top: -100px;
+    width: 100%;
+}
+
+.content {
+    position: relative;
+    z-index: 0;
+    top: -550px;
+    width: 100%;
+    height: 50%;
+    margin: 0 auto;
+    color: white;
+    text-shadow: #000 5px 5px 5px;
+}
+
+
+/* destination */
+
+.destinations {
+    /* padding-top: 50px; */
+    margin-left: 150px;
+    height: max-content;
+    border-left: 4px dotted black;
+    position: relative;
+}
+
+div.des-img {
+    width: 117%;
+}
+
+div.des-img__small {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+div.des-img__small img {
+    display: block;
+    margin-bottom: 22px;
+}
+
+div.bg-rectangle {
+    width: 700px;
+    height: 400px;
+    background-color: rgba(196, 218, 248, 0.6);
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    z-index: -1;
+}
+
+.direct {
+    border-left: 1px solid #bbbbbb;
+    position: fixed;
+    right: 30px;
+    top: 200px;
+    opacity: 1;
+    transition: opacity 0.3s linear;
+}
+
+.direct a {
+    position: relative;
+    left: -35px;
+    color: blue;
+    transition: color 0.3s linear;
+}
+
+#content {
+    height: max-content;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.map li {
+    padding: 10px;
+    padding-left: 20px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border-radius: 25px;
+    background-color: #f6f6f6;
+    color: blue;
+    cursor: pointer;
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+}
+
+.map li:hover {
+    color: orangered;
+}
+
+.li_active {
+    background-color: #FFF5E1;
+    color: orangered;
+}
+
+.map p {
+    padding-left: 20px;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    color: #bbbbbb;
+}
+
+.map i {
+    position: absolute;
+    right: 20px;
+}
