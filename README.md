@@ -13,9 +13,9 @@
   > JDK là một thành phần nền tảng chính để xây dựng các ứng dụng Java. 
 - [Apache Tomcat](https://tomcat.apache.org/download-90.cgi)
   > Tomcat cung cấp một môi trường máy chủ web HTTP "thuần Java" trong đó mã Java có thể chạy.
- - Eclipse 
+- Eclipse 
   > Các IDE hỗ trợ chạy các chương trình java.
- - [Maven](https://maven.apache.org/download.cgi)
+- [Maven](https://maven.apache.org/download.cgi)
   > Apache maven là một chương trình quản lý dự án cho phép các developers có thể quản lý về version, các dependencies, quản lý build, tự động download javadoc & source, …
   
 ## 2.2 Thay đổi giá trị một số thuộc tính trong file config Hibernate
