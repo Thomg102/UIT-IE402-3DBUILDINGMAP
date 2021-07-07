@@ -5,9 +5,9 @@
 <hibernate-configuration>
     <session-factory>
         <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
-        <property name="hibernate.connection.password">?</property>
+        <property name="hibernate.connection.password">pastwent12345</property>
         <property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;databaseName=spatial_data</property>
-        <property name="hibernate.connection.username">?</property>
+        <property name="hibernate.connection.username">sa</property>
         <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
         
         <mapping class="com.buildingmap3d.entities.Node"/>

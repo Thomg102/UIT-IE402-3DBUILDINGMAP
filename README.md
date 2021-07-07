@@ -21,7 +21,9 @@
 ## 2.2 Thay đổi giá trị một số thuộc tính trong file config Hibernate
 - Truy cập file theo đường dẫn _.\UIT-IE402-3DBUILDINGMAP\src\main\resources\hibernate.cfg.xml_
 - Thay thế **?** trong file  _hibernate.cfg.xml_  với tài khoản  **SQL Server Authentication**
+
   `<property name="hibernate.connection.password">?</property>`
+  <br>
   `<property name="hibernate.connection.username">?</property>`
   
 ## 2.3 Tạo cở sở dữ liệu và thêm dữ liệu
