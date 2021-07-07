@@ -28,13 +28,6 @@
 			<version>1.1.1</version>
 		</dependency>		
 
-		<!-- Password generator-->
-		<dependency>
-			<groupId>org.passay</groupId>
-			<artifactId>passay</artifactId>
-			<version>1.6.0</version>
-		</dependency>		
-
 		<!-- Add support for Hibernate: hibernate-core -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -100,21 +93,7 @@
 			<artifactId>spring-core</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/javax.mail/javax.mail-api -->
-		<dependency>
-			<groupId>javax.mail</groupId>
-			<artifactId>javax.mail-api</artifactId>
-			<version>1.4.7</version>
-		</dependency>
-
-		<!-- https://mvnrepository.com/artifact/javax.mail/mail -->
-		<dependency>
-			<groupId>javax.mail</groupId>
-			<artifactId>mail</artifactId>
-			<version>1.4.7</version>
-		</dependency>
-
+		
 		<!-- junit -->
 		<dependency>
 			<groupId>junit</groupId>
@@ -130,12 +109,7 @@
 		    <version>2.12.3</version>
 		</dependency>
 
-		<!--JSON Simple-->
-		<dependency>
-    		<groupId>com.googlecode.json-simple</groupId>
-    		<artifactId>json-simple</artifactId>
-    		<version>1.1.1</version>
-		</dependency>
+		
 
 	</dependencies>
 
