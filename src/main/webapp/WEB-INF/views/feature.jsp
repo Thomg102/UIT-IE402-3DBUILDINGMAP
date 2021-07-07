@@ -13,12 +13,9 @@
     <title>Map 3D</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./style.css">
+   <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 
-    <link rel="stylesheet" href="https://js.arcgis.com/4.15/esri/themes/light/main.css">
-    <script src="https://js.arcgis.com/4.15/"></script>
-    <script src="map.js"></script>
 </head>
 <style>
     #viewDiv {
@@ -64,16 +61,16 @@
         <div class=" container" style="margin-top: 150px;">
             <div class="d-flex justify-content-around" style=" width: 70%; margin:0 auto;">
                 <div>
-                    <p class="text-center"><i class="far fa-eye" style="font-size: 60px; color: rgb(0, 20, 110);"></i></p>
-                    <p>Xem bản đồ tòa nhà 3D </p>
+                    <p class="text-center"><a href="#feature1"><i class="far fa-eye" style="font-size: 60px; color: rgb(0, 20, 110);"></i></a></p>
+                    <a href="#feature1"><p>Xem bản đồ tòa nhà 3D </p></a>
                 </div>
                 <div>
-                    <p class="text-center"><i class="fab fa-cuttlefish" style="font-size: 60px;color: rgb(0, 20, 110);"></i></p>
-                    <p>Xem lát cắt tòa nhà </p>
+                    <p class="text-center"><a href="#feature2"><i class="fab fa-cuttlefish" style="font-size: 60px;color: rgb(0, 20, 110);"></i></a></p>
+                    <a href="#feature2"><p>Xem lát cắt tòa nhà </p></a>
                 </div>
                 <div>
-                    <p class="text-center"><i class="fas fa-search" style="font-size: 60px;color: rgb(0, 20, 110);"></i></p>
-                    <p>Tìm kiếm tòa nhà</p>
+                    <p class="text-center"><a href="#feature3"><i class="fas fa-search" style="font-size: 60px;color: rgb(0, 20, 110);"></i></a></p>
+                    <a href="#feature3"><p>Tìm kiếm, lọc tòa nhà</p></a>
                 </div>
             </div>
 
@@ -81,23 +78,21 @@
     </header>
     <div class="container pt-5" id="content">
         <div>
-            <div class="d-flex justify-content-between" style=" position: relative;">
+            <div id="feature1" class="d-flex justify-content-between" style=" position: relative;">
                 <div class="">
                     <img src="${pageContext.request.contextPath}/resources/img/bitexco.png" alt="" height="500px">
                 </div>
                 <div class="m-5">
-                    <h1 style=" color: rgb(0, 20, 110);">Xem tÃ²a nhÃ  trÃªn báº£n Äá» 3D</h1>
-                    <p style="font-size: 25px;">Vá»i Google Earth cho Chrome, báº¡n cÃ³ thá» bay Äáº¿n báº¥t cá»© ÄÃ¢u chá» trong vÃ i giÃ¢y vÃ  khÃ¡m phÃ¡ hÃ ng trÄm thÃ nh phá» 3D ngay trong trÃ¬nh duyá»t. HÃ£y Äá» xÃºc xáº¯c Äá» khÃ¡m phÃ¡ má»t Äá»a Äiá»m má»i, thá»±c hiá»n chuyáº¿n tham quan cÃ³ hÆ°á»ng dáº«n cÃ¹ng vá»i
-                        Voyager cÅ©ng nhÆ° táº¡o báº£n Äá» vÃ  cÃ¢u chuyá»n cá»§a riÃªng báº¡n. Sáº¯p ra máº¯t trÃªn cÃ¡c trÃ¬nh duyá»t khÃ¡c.</p>
-                    <button>Xem báº£n Äá»</button>
+                    <h1 style=" color: rgb(0, 20, 110);">| Xem toà nhà trên bản đồ 3D</h1>
+                    <p style="font-size: 25px;">Xem hình dáng tòa nhà trên bản đồ 3D để có cái nhìn tổng quan, giúp đưa ra các quyết định quy hoạch cảnh quan đô  thị. Hơn thế nữa, đây là cơ sở để phát triển thêm các tính năng cho bản đồ.</p>
+                    <button><a href="${pageContext.request.contextPath}/map">Xem bản đồ 3D</a></button>
                 </div>
             </div>
 
-            <div class="d-flex justify-content-between" style="margin-top: 50px; position: relative;">
+            <div id="feature2" class="d-flex justify-content-between" style="margin-top: 50px; position: relative;">
                 <div class="m-5">
-                    <h1 style=" color: rgb(0, 20, 110);">Xem lÃ¡t cáº¯t tÃ²a nhÃ </h1>
-                    <p style="font-size: 25px;">Vá»i Google Earth cho Chrome, báº¡n cÃ³ thá» bay Äáº¿n báº¥t cá»© ÄÃ¢u chá» trong vÃ i giÃ¢y vÃ  khÃ¡m phÃ¡ hÃ ng trÄm thÃ nh phá» 3D ngay trong trÃ¬nh duyá»t. HÃ£y Äá» xÃºc xáº¯c Äá» khÃ¡m phÃ¡ má»t Äá»a Äiá»m má»i, thá»±c hiá»n chuyáº¿n tham quan cÃ³ hÆ°á»ng dáº«n cÃ¹ng vá»i
-                        Voyager cÅ©ng nhÆ° táº¡o báº£n Äá» vÃ  cÃ¢u chuyá»n cá»§a riÃªng báº¡n. Sáº¯p ra máº¯t trÃªn cÃ¡c trÃ¬nh duyá»t khÃ¡c.</p>
+                    <h1 style=" color: rgb(0, 20, 110);">| Xem lát cắt tòa nhà </h1>
+                    <p style="font-size: 25px;">Xem các thành phần bị che khuất phía trong các tòa nhà, mang lại cái nhìn về cách sắp sếp bố trí nội thất, giúp những người chưa đến lần nào hình dung được kết cấu, hình dáng tòa nhà, thuận lợi cho việc ghé thăm trong tương lai. </p>
                     <img src="${pageContext.request.contextPath}/resources/img/slice1.PNG" alt="">
 
                 </div>
@@ -106,16 +101,15 @@
                 </div>
             </div>
 
-            <div class="d-flex justify-content-between" style="margin-top: 100px; position: relative;">
+            <div id="feature3" class="d-flex justify-content-between" style="margin-top: 100px; position: relative;">
 
                 <div class="">
                     <img src="${pageContext.request.contextPath}/resources/img/slice.png" alt="" height="500px">
                 </div>
                 <div class="m-5">
-                    <h1 style=" color: rgb(0, 20, 110);">TÃ¬m kiáº¿m tÃ²a nhÃ </h1>
-                    <p style="font-size: 25px;">Vá»i Google Earth cho Chrome, báº¡n cÃ³ thá» bay Äáº¿n báº¥t cá»© ÄÃ¢u chá» trong vÃ i giÃ¢y vÃ  khÃ¡m phÃ¡ hÃ ng trÄm thÃ nh phá» 3D ngay trong trÃ¬nh duyá»t. HÃ£y Äá» xÃºc xáº¯c Äá» khÃ¡m phÃ¡ má»t Äá»a Äiá»m má»i, thá»±c hiá»n chuyáº¿n tham quan cÃ³ hÆ°á»ng dáº«n cÃ¹ng vá»i
-                        Voyager cÅ©ng nhÆ° táº¡o báº£n Äá» vÃ  cÃ¢u chuyá»n cá»§a riÃªng báº¡n. Sáº¯p ra máº¯t trÃªn cÃ¡c trÃ¬nh duyá»t khÃ¡c.</p>
-                    <button>Xem báº£n Äá»</button>
+                    <h1 style=" color: rgb(0, 20, 110);">| Tìm kiếm, lọc tòa nhà</h1>
+                    <p style="font-size: 25px;">Tìm kiếm tòa nhà muốn xem và lọc các tòa nhà theo loại để biết được có những loại tòa nhà nào xung quanh vị trí mình muốn tìm kiếm.</p>
+                    
                 </div>
 
             </div>

@@ -52,10 +52,10 @@
                                 </ul>
                                 <ul class="navbar-nav">
                                     <li class="nav-item mr-1">
-                                        <a class="nav-link a-link" href="#">Sign in</a>
+                                        <a class="nav-link a-link" href="#">Đăng nhập</a>
                                     </li>
                                     <li class="nav-item mr-1">
-                                        <a class="nav-link a-link" href="#">Sign up</a>
+                                        <a class="nav-link a-link" href="#">Đăng ký</a>
                                     </li>
                                 </ul>
                             </div>
@@ -93,9 +93,14 @@
                     <div class="container mt-5 pt-5" id="content">
                         <div class="d-flex">
                             <div>
-                                <h3>Cửa ngõ vào Nhật Bản - Tokyo. Giới thiệu các địa điểm từ điểm tham quan phổ biến đến các nơi ít được biết đến. </h3>
-                                <p style="font-size: 20px;">Tokyo là một thành phố lớn với dân số hơn 1,38 triệu người. Cảnh đẹp không tỳ vết nhìn từ tháp Sky Tree cũng như Tháp Tokyo, một biểu tượng của Tokyo. Có rất nhiều điều quý khách có thể quan sát từ nơi này, chẳng hạn như
-                                    Chùa Senso-ji nơi khởi nguồn sự rung cảm đích thực của người Nhật, cảnh dòng người băng qua Ngã tư Shibuya và từ Odaiba nhìn ra Vịnh Tokyo là cảnh tượng quý khách không bao giờ chán.</p>
+                                <h2 style="margin-top: 60px">Sài Gòn - Hòn Ngọc Viễn Đông </h2>
+                                <p style="font-size: 20px; margin-top: 50px">
+                                Thành phố Hồ Chí Minh (thường được gọi là Sài Gòn) là một thành phố ở miền nam 
+                                Việt Nam nổi tiếng với vai trò nòng cốt trong chiến tranh Việt Nam. 
+                                Sài Gòn cũng được biết đến với địa danh của thực dân Pháp, 
+                                trong đó có Nhà thờ Đức Bà được xây dựng hoàn toàn bằng nguyên liệu nhập khẩu từ Pháp và Bưu điện trung tâm được xây dựng vào thế kỷ 19. 
+                                Quán ăn nằm dọc các đường phố Sài Gòn, nhất là xung quanh chợ Bến Thành nhộn nhịp.
+                                </p>
                             </div>
                             <div class="ml-5">
                                 <img src="${pageContext.request.contextPath}/resources/img/anh2.png" alt="Viet Nam map" width="500">
@@ -134,7 +139,7 @@
                                     </div>
                                     <div class="des-content">
                                         <h3 class="mt-3">Landmark 81</h3>
-                                        <p class="mt-4">Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.</p>
+                                        <p class="mt-4">Landmark 81 được xây dựng dựa trên hình ảnh “lũy tre làng” với các đỉnh cao chót vót, vươn tận trời xanh, như biểu tượng cho sự kiên cường, bất khuất của người dân Việt. Nếu nhìn ở một góc độ sâu xa hơn, Landmark 81 còn gửi gắm thông điệp và khát vọng của những người “Con Rồng Cháu Tiên” muốn vươn tầm thế giới, sánh ngang với bạn bè quốc tế khắp “năm châu bốn bể”.</p>
                                     </div>
 
                                 </div>
@@ -145,7 +150,7 @@
                                         <img src="https://tailieuxaydung.info/wp-content/uploads/2018/08/landmark811.jpg" alt="" height="95" width="140">
                                         <img src="https://img.hoozing.com/1280/Project/926/hoozing-d61f0f6b-3247-4578-9bb2-44ba8188fd43.jpg" alt="" height="95" width="140">
                                         <img src="http://luxuryrealty.com.vn/wp-content/uploads/2017/12/vinhomes-central-park-thang-12-2017-4.png" alt="" height="95" width="140">
-                                        <p style="text-align: center;"><a href="" style="color: rgb(4, 16, 71); font-weight: bold;">Tìm hiểu thêm...</a></p>
+                                        <p style="text-align: center;"><a href="https://www.vinhomescentralpark.co/mo-ban-toa-the-landmark-81/" style="color: rgb(4, 16, 71); font-weight: bold;">Tìm hiểu thêm...</a></p>
                                     </div>
                                     <div class="bg-rectangle"></div>
                                 </div>
@@ -157,8 +162,8 @@
                                         <img src="${pageContext.request.contextPath}/resources/img/2.PNG" alt="" width="80">
                                     </div>
                                     <div class="des-content">
-                                        <h3 class="mt-3">Bitexco</h3>
-                                        <p class="mt-4">Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.</p>
+                                        <h3 class="mt-3">Bitexco Financial</h3>
+                                        <p class="mt-4">Ý tưởng thiết kế được lấy cảm hứng từ hình ảnh của búp sen vươn lên bầu trời, thể hiện cho khát vọng vươn lên của dân tộc, đại diện cho 1 Việt Nam đầy năng động nhưng vẫn gìn giữ bản sắc.</p>
                                     </div>
 
                                 </div>
@@ -169,7 +174,7 @@
                                         <img src="https://lh3.googleusercontent.com/proxy/g-Jr5jNgziIISwnu55bZ1RMUBrdTG-a9UJzB633fUScyjF64vWOKKQlQFPphqwVSqN37teEvm886yaZCVtfE" alt="" height="95" width="140">
                                         <img src="https://lh3.googleusercontent.com/proxy/87XyH50QFu-4v6-suEw9J5-T7SPhCZn9gddoF_nTMAWXH-fg8b5Sq1_T7PCfw2YjMJYACM8XfzAp67Keuh-DeL5_XUl8yhR3IGpdhOw6OmSJTcBupQ" alt="" height="95" width="140">
                                         <img src="https://www.alualpha.com/wp-content/uploads/2018/09/Cong-trinh-toa-nha-cao-thanh-pho-hcm.jpg" alt="" height="95" width="140">
-                                        <p style="text-align: center;"><a href="" style="color: rgb(4, 16, 71); font-weight: bold;">Tìm hiểu thêm...</a></p>
+                                        <p style="text-align: center;"><a href="https://bitexco.com.vn/" style="color: rgb(4, 16, 71); font-weight: bold;">Tìm hiểu thêm...</a></p>
                                     </div>
                                     <div class="bg-rectangle"></div>
                                 </div>
@@ -182,7 +187,7 @@
                                     </div>
                                     <div class="des-content">
                                         <h3 class="mt-3">Dinh Độc Lập</h3>
-                                        <p class="mt-4">Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.</p>
+                                        <p class="mt-4">Ngày nay, Dinh Ðộc Lập là di tích quốc gia đặc biệt được đông đảo du khách trong nước và nước ngoài đến tham quan và là nơi hội họp, tiếp khách của các cấp lãnh đạo trung ương cũng như của thành phố.</p>
                                     </div>
 
                                 </div>
@@ -193,7 +198,7 @@
                                         <img src="https://gotrangtri.vn/wp-content/uploads/2018/06/dinh-doc-lap-2.jpg" alt="" height="95" width="140">
                                         <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2017/09/9-1.jpg" alt="" height="95" width="140">
                                         <img src="https://i.pinimg.com/originals/f5/bc/df/f5bcdf09dbf254facf2f0ed12efe8190.jpg" alt="" height="95" width="140">
-                                        <p style="text-align: center;"><a href="" style="color: rgb(4, 16, 71); font-weight: bold;">Tìm hiểu thêm...</a></p>
+                                        <p style="text-align: center;"><a href="https://www.dinhdoclap.gov.vn/" style="color: rgb(4, 16, 71); font-weight: bold;">Tìm hiểu thêm...</a></p>
                                     </div>
                                     <div class="bg-rectangle"></div>
                                 </div>
@@ -206,7 +211,7 @@
                                     </div>
                                     <div class="des-content">
                                         <h3 class="mt-3">Chợ Bến Thành</h3>
-                                        <p class="mt-4">Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.</p>
+                                        <p class="mt-4">Rực rỡ – Nhộn nhịp” là những gì có thể thấy ở chợ Bến Thành khi trăng lên. Dường như đây mới là thời điểm “sống thật” của khu chợ này. Nhiều hoạt động giao thương, nhiều khách du lịch và người dân địa phương tham quan, thưởng thức các món ăn, sẵn sàng sống với một “Sài Gòn thứ 2” – Sài Gòn về đêm.</p>
                                     </div>
 
                                 </div>
@@ -218,7 +223,7 @@
                                         <img src="https://vcdn1-vnexpress.vnecdn.net/2020/03/27/cho-ben-thanh-2-1585317045-1585321278.jpg?w=1200&h=0&q=100&dpr=1&fit=crop&s=tKL_qfQLctfcsTeAVG8qNQ" alt="" height="95" width="140">
                                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUiG28agfYlW2Tvdaim4txJdOgsnFLp4QJKg&usqp=CAU" alt="" height="95" width="140">
                                         <img src="https://s3-ap-northeast-1.amazonaws.com/nem-vn.net/original/2020/08/cho-ben-thanh-1598016909-10756.jpeg" alt="" height="95" width="140">
-                                        <p style="text-align: center;"><a href="" style="color: rgb(4, 16, 71); font-weight: bold;">Tìm hiểu thêm...</a></p>
+                                        <p style="text-align: center;"><a href="https://www.vntrip.vn/cam-nang/tham-quan-cho-ben-thanh-sai-gon-15535" style="color: rgb(4, 16, 71); font-weight: bold;">Tìm hiểu thêm...</a></p>
                                     </div>
                                     <div class="bg-rectangle"></div>
                                 </div>
@@ -231,7 +236,7 @@
                                     </div>
                                     <div class="des-content">
                                         <h3 class="mt-3">Bến Cảng Nhà Rồng</h3>
-                                        <p class="mt-4">Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.Bờ sông Tokyo có nhiều điểm giải trí, mua sắm và khu ăn uống ngon.</p>
+                                        <p class="mt-4">Nhắc đến Bến Nhà Rồng, trong mỗi chúng ta không thể không biết đến địa danh nổi tiếng đã góp phần thay đổi toàn bộ lịch sử của nền dân tộc Việt Nam. Nơi đây, ngày 5/6/1911, chàng thanh niên trẻ Nguyễn Tất Thành đã lên con tàu Amiral Latouche Tréville (Pháp) lấy tên là Văn Ba, bắt đầu chuyến hành trình tìm đường cứu nước đằng đẵng kéo dài 30 năm.</p>
                                     </div>
 
                                 </div>
@@ -242,7 +247,7 @@
                                         <img src="https://www.lancaster.com.vn/storage/app/uploads/public/5b9/0dc/b45/5b90dcb4586bf507830145.jpg" alt="" height="95" width="140">
                                         <img src="https://kienviet.net/wp-content/uploads/2017/01/ben-nha-rong-moi-canh-khanh-hoi.jpg" alt="" height="95" width="140">
                                         <img src="https://lh3.googleusercontent.com/proxy/X17DuEeX7hEtF2tTj2J92Xg1iU67tpBVXstnhEojidjnnQlBfgqZ9FG6XbHG_cJN1DqXctQKzzzOVPCQGCYx2sS7kMWqv3Gl7Xh7L_j4foC2H2YyWPSNY2so1lucw88FxJI3p-_jW3dHQ-_jcmsffZ32ix7bDLEolvzekOnS" alt="" height="95" width="140">
-                                        <p style="text-align: center;"><a href="" style="color: rgb(4, 16, 71); font-weight: bold;">Tìm hiểu thêm...</a></p>
+                                        <p style="text-align: center;"><a href="https://www.vntrip.vn/cam-nang/ben-nha-rong-sai-gon-15793" style="color: rgb(4, 16, 71); font-weight: bold;">Tìm hiểu thêm...</a></p>
                                     </div>
                                     <div class="bg-rectangle"></div>
                                 </div>

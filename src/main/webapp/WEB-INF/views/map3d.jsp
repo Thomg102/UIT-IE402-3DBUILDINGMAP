@@ -60,7 +60,7 @@
             max-width: 228px;
         }
     </style>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link href="https://js.arcgis.com/4.19/esri/themes/light/main.css" rel="stylesheet" type="text/css" />
     <script src="https://js.arcgis.com/4.19/"></script>
 
@@ -281,7 +281,7 @@
 
             // Add widget to the bottom left corner of the view
             view.ui.add(slice, {
-                position: "bottom-left"
+                position: "top-right"
             });
 
             const excludedLayers = [];
@@ -379,6 +379,10 @@
             </div>
         </div>
     </div>
+    
+    <a style="color: white; font-weight: bolder" href="${pageContext.request.contextPath}/feature"><div style="position: fixed; top: 215px; left: 8px; width:max-content; background-color: rgb(0, 20, 110); padding: 10px; border-radius:25px; border: 2px solid black">
+   	<i class="fas fa-home"></i>
+    </div></a>
 </body>
 
 </html>
